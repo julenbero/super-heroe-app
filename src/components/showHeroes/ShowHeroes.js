@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Card from '../card/Card';
+import './ShowHeroes.css';
 
 const ShowHeroes = () => {
 	function renderHeroes() {
@@ -7,14 +8,21 @@ const ShowHeroes = () => {
 			<Fragment>
 				<Card />
 				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
 			</Fragment>
 		);
 	}
 
 	return (
-		<div>
-			<h1>Heroes</h1>
-			<div>{renderHeroes()}</div>
+		<div className="content">
+			<h1>Listado Heroes</h1>
+			<div className="card-item">{renderHeroes()}</div>
 		</div>
 	);
 };
