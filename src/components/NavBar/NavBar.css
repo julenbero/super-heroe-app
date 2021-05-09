@@ -6,8 +6,10 @@
 .navbar {
 	height: 70px;
 	/* background: #014369; */
-	background: #f4bb05;
+	/* background: #f4bb05; */
 	/* background: #5cc7b2; */
+	background: linear-gradient(to left, #f48405, #f4bb05);
+	/* background: linear-gradient(to right, #eb5a12, #f48405, #f4bb05); */
 }
 
 .navbar-content {
